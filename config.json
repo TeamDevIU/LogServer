@@ -1,0 +1,7 @@
+{
+    "root": "/home/pacman29/WebstormProjects/VkBot/Bot",
+    "routes": [
+        "/VkGroupBot/combined.log",
+        "/VkGroupBot/error.log" 
+    ]
+}

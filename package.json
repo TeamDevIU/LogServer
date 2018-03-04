@@ -1,0 +1,23 @@
+{
+  "name": "logserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env CONFIG=./config.json PORT=7777 node $NODE_DEBUG_OPTION index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamDevIU/LogServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamDevIU/LogServer/issues"
+  },
+  "homepage": "https://github.com/TeamDevIU/LogServer#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
